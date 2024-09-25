@@ -42,11 +42,19 @@ export const routes: Routes = [
         loadComponent: () => import('./dashboard/pages/users/users.component'),
       },
       {
-        path: 'view-transtitions',
-        title: 'View Transtitions',
+        path: 'view-transtitions-1',
+        title: 'View Transtitions-1',
         loadComponent: () =>
           import(
-            './dashboard/pages/view-transtitions/view-transtitions.component'
+            './dashboard/pages/view-transtitions/view-transtitions1.component'
+          ),
+      },
+      {
+        path: 'view-transtitions-2',
+        title: 'View Transtitions-2',
+        loadComponent: () =>
+          import(
+            './dashboard/pages/view-transtitions/view-transtitions2.component'
           ),
       },
 
